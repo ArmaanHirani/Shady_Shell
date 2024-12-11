@@ -1,0 +1,1225 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.24f1 (334eb2a0b267) revision 3362482'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 65207 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/armaa/OneDrive/Desktop/Projects/Shady_Shell/Shady_Shell
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58945
+Successfully changed project path to: C:/Users/armaa/OneDrive/Desktop/Projects/Shady_Shell/Shady_Shell
+C:/Users/armaa/OneDrive/Desktop/Projects/Shady_Shell/Shady_Shell
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [30932] Host "[IP] 10.2.39.15 [Port] 0 [Flags] 2 [Guid] 857523148 [EditorId] 857523148 [Version] 1048832 [Id] WindowsEditor(7,Hirani) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [30932] Host "[IP] 10.2.39.15 [Port] 0 [Flags] 2 [Guid] 857523148 [EditorId] 857523148 [Version] 1048832 [Id] WindowsEditor(7,Hirani) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
+Refreshing native plugins compatible for Editor in 5.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.24f1 (334eb2a0b267)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/armaa/OneDrive/Desktop/Projects/Shady_Shell/Shady_Shell/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 Laptop GPU (ID=0x2820)
+    Vendor:   NVIDIA
+    VRAM:     7951 MB
+    Driver:   32.0.15.6636
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005433 seconds.
+- Loaded All Assemblies, in  0.301 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.220 seconds
+Domain Reload Profiling: 520ms
+	BeginReloadAssembly (101ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (112ms)
+		LoadAssemblies (100ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (110ms)
+			TypeCache.Refresh (109ms)
+				TypeCache.ScanAssembly (100ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (220ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (173ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (121ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.481 seconds
+Refreshing native plugins compatible for Editor in 1.72 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.644 seconds
+Domain Reload Profiling: 1123ms
+	BeginReloadAssembly (116ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (298ms)
+		LoadAssemblies (223ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (118ms)
+				TypeCache.ScanAssembly (107ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (644ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (527ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (444ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 3.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (57.2 KB). Loaded Objects now: 3585.
+Memory consumption went from 132.2 MB to 132.1 MB.
+Total: 4.292800 ms (FindLiveObjects: 0.205600 ms CreateObjectMapping: 0.110000 ms MarkObjects: 3.840500 ms  DeleteObjects: 0.135300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 21437.475689 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(43c7245c38c54854788ba4b1fbf3acc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Terrain.asset using Guid(43c7245c38c54854788ba4b1fbf3acc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '660e38513a2e84ff17377589c6218a11') in 0.139807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Materials/GasStation/Scene/Post-Processing.asset
+  artifactKey: Guid(8dde16ce2d3b466409afda8461db4b56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Scene/Post-Processing.asset using Guid(8dde16ce2d3b466409afda8461db4b56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5c313b95a20baedefe8f398efa4f5f2e') in 0.026259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Materials/ADG_Textures/ground_vol1/ground2/ground2_Metallic.tga
+  artifactKey: Guid(05ec23c4c1d2ad54eaebfd0bf25af051) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/ADG_Textures/ground_vol1/ground2/ground2_Metallic.tga using Guid(05ec23c4c1d2ad54eaebfd0bf25af051) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '208b7d8ccd84f2e5f91b2f9f5c833fa4') in 0.087948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Materials/ADG_Textures/ground_vol1/ground2/ground2_Normal.tga
+  artifactKey: Guid(f3b2a952874cda74583658ed78a08ef2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/ADG_Textures/ground_vol1/ground2/ground2_Normal.tga using Guid(f3b2a952874cda74583658ed78a08ef2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ecbb4baefd396262b779ea05fddff60a') in 0.040438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Materials/ADG_Textures/ground_vol1/ground11/ground11_Ambient_Occlusion.tga
+  artifactKey: Guid(1c2b00545d9509e49870ddf237e576cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/ADG_Textures/ground_vol1/ground11/ground11_Ambient_Occlusion.tga using Guid(1c2b00545d9509e49870ddf237e576cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '880f7999977dff364890e15f4d5034a5') in 0.042980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Materials/ADG_Textures/ground_vol1/ground4/ground4_Metallic.tga
+  artifactKey: Guid(fb1c850a227a62544b63c6626cfa8ba8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/ADG_Textures/ground_vol1/ground4/ground4_Metallic.tga using Guid(fb1c850a227a62544b63c6626cfa8ba8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '94e7d305a6edf30cc034092737aaa52d') in 0.036776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Materials/ADG_Textures/ground_vol1/ground3/ground3_Diffuse.tga
+  artifactKey: Guid(c454ab598058d19449addc55a13cc73a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/ADG_Textures/ground_vol1/ground3/ground3_Diffuse.tga using Guid(c454ab598058d19449addc55a13cc73a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd03e531b0b7acc786266a11275f90660') in 0.040632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Materials/ADG_Textures/ground_vol1/ground8/ground8_Diffuse.tga
+  artifactKey: Guid(27dcac97c77064349b5278157901e387) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/ADG_Textures/ground_vol1/ground8/ground8_Diffuse.tga using Guid(27dcac97c77064349b5278157901e387) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b8c6207acca61cdbe0730a9a16f36a6e') in 0.050211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Materials/ADG_Textures/ground_vol1/ground7/ground7.mat
+  artifactKey: Guid(9b2d9ffb6a28d244e8e9025b4a87f779) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/ADG_Textures/ground_vol1/ground7/ground7.mat using Guid(9b2d9ffb6a28d244e8e9025b4a87f779) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e2e9b804de35b15a8d14081676a21536') in 0.124555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Materials/GasStation/Scene/GasStation/ReflectionProbe-6.exr
+  artifactKey: Guid(5c865d0f6726ef44da81120d6efe8be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Scene/GasStation/ReflectionProbe-6.exr using Guid(5c865d0f6726ef44da81120d6efe8be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a0ba2cc1e01e39ca61c6005f63d0b945') in 0.042347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Materials/ADG_Textures/ground_vol1/ground2/ground2_Diffuse.tga
+  artifactKey: Guid(ef1fbc9bae2718d4a8dbe2baaa01399c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/ADG_Textures/ground_vol1/ground2/ground2_Diffuse.tga using Guid(ef1fbc9bae2718d4a8dbe2baaa01399c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fb6a16401162f20cf0b70176aa777e9a') in 0.030921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Materials/GasStation/Scene/GasStation/Lightmap-2_comp_light.exr
+  artifactKey: Guid(8e2b6adfe931cc84fad6a8fb0b578162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Scene/GasStation/Lightmap-2_comp_light.exr using Guid(8e2b6adfe931cc84fad6a8fb0b578162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '163f1c8b589a3a12c1f63b7717fe4fe0') in 0.040483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Materials/ADG_Textures/ground_vol1/ground1/ground1_Metallic.tga
+  artifactKey: Guid(33d10529b8ef9af47a3d97a1c7419649) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/ADG_Textures/ground_vol1/ground1/ground1_Metallic.tga using Guid(33d10529b8ef9af47a3d97a1c7419649) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0d8d5a804c9216684c16f984dc3ae281') in 0.044855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Materials/ADG_Textures/ground_vol1/ground6/ground6_Diffuse.tga
+  artifactKey: Guid(6dff70b1f69dbc640b854ad550b78c39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/ADG_Textures/ground_vol1/ground6/ground6_Diffuse.tga using Guid(6dff70b1f69dbc640b854ad550b78c39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '486eb27683911846dee74fa25bd7f2d5') in 0.029567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Materials/ADG_Textures/ground_vol1/ground1/New Lighting Settings.lighting
+  artifactKey: Guid(d7720263d61df4d4aaf32606133bc8d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/ADG_Textures/ground_vol1/ground1/New Lighting Settings.lighting using Guid(d7720263d61df4d4aaf32606133bc8d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9524aef75583c2b52f90bfa7f9486261') in 0.043701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Materials/ADG_Textures/ground_vol1/ground9/ground9_Ambient_Occlusion.tga
+  artifactKey: Guid(60662f4bc5917c94986801d53f5ee99f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/ADG_Textures/ground_vol1/ground9/ground9_Ambient_Occlusion.tga using Guid(60662f4bc5917c94986801d53f5ee99f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '63cbca76412852c15cc403dae7e84c35') in 0.044378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Materials/GasStation/Assets/Construction/Materials/GasCeiling_1.mat
+  artifactKey: Guid(e76e066c8751be94899aad485b6eb383) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Construction/Materials/GasCeiling_1.mat using Guid(e76e066c8751be94899aad485b6eb383) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f71e743bb5d1f4b5a9d46dbc5a710043') in 0.048811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Materials/GasStation/Scene/GasStation/ReflectionProbe-2.exr
+  artifactKey: Guid(522a8676b9efa494c831cdb1bf5f98f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Scene/GasStation/ReflectionProbe-2.exr using Guid(522a8676b9efa494c831cdb1bf5f98f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '670d855ff22b1b6ac4a1161674b90829') in 0.034659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Materials/ADG_Textures/ground_vol1/ground13/ground13_Height.tga
+  artifactKey: Guid(b7ef56f6ca2ab724e9fcf1949a7a1638) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/ADG_Textures/ground_vol1/ground13/ground13_Height.tga using Guid(b7ef56f6ca2ab724e9fcf1949a7a1638) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'de5e6f2893e92156a257dd790d53e193') in 0.048234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Materials/ADG_Textures/ground_vol1/ground11/ground11_Normal.tga
+  artifactKey: Guid(18065c20143a44f479d7c439a3455795) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/ADG_Textures/ground_vol1/ground11/ground11_Normal.tga using Guid(18065c20143a44f479d7c439a3455795) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2d16bfd93076e6ddc21a44167e36eb58') in 0.046176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Materials/ADG_Textures/ground_vol1/ground13/ground13_Ambient_Occlusion.tga
+  artifactKey: Guid(2a99c17849836234e94e4e4b040bc253) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/ADG_Textures/ground_vol1/ground13/ground13_Ambient_Occlusion.tga using Guid(2a99c17849836234e94e4e4b040bc253) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '719de7bae75a03d0dbb237d9b11f9e81') in 0.041915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Materials/GasStation/Assets/Construction/Prefabs/Ceiling_Side.prefab
+  artifactKey: Guid(3783768d87189b543a272af050a363d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Construction/Prefabs/Ceiling_Side.prefab using Guid(3783768d87189b543a272af050a363d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '83d6d5bfca3fb7e06e4bf98779811b6e') in 0.057771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Materials/GasStation/Assets/Construction/Prefabs/GasStationConstruction.prefab
+  artifactKey: Guid(3986918ffd307474fb9886bdaa3a4e7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Construction/Prefabs/GasStationConstruction.prefab using Guid(3986918ffd307474fb9886bdaa3a4e7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '69efc81618e95d5728cf126f17568da4') in 0.055849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4042
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Materials/GasStation/Assets/Construction/Materials/Wall_1_1_Door.mat
+  artifactKey: Guid(ac0a006aa08fb9544a20e4392bf149f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Construction/Materials/Wall_1_1_Door.mat using Guid(ac0a006aa08fb9544a20e4392bf149f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a3c7fe221925324723d76c1592e1f0e1') in 0.030678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Materials/GasStation/Assets/Nature/Materials/Mountain_1.mat
+  artifactKey: Guid(94629f1d0770be6479c0a5adc3e9f2db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Nature/Materials/Mountain_1.mat using Guid(94629f1d0770be6479c0a5adc3e9f2db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e2513b99ca18c4e3f9df99059938ade8') in 0.066075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Materials/ADG_Textures/ground_vol1/ground7/ground7_Metallic.tga
+  artifactKey: Guid(e9d30098b0fc07a4887f73b87ad656f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/ADG_Textures/ground_vol1/ground7/ground7_Metallic.tga using Guid(e9d30098b0fc07a4887f73b87ad656f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c352954a9aa8dda500b784f8505130a3') in 0.036964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Materials/GasStation/Scene/GasStation/ReflectionProbe-0.exr
+  artifactKey: Guid(a16ca3a09826cc94eaac4cc8f6f3c5ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Scene/GasStation/ReflectionProbe-0.exr using Guid(a16ca3a09826cc94eaac4cc8f6f3c5ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '10af5e4aa56ee8e4d4bb59b3dd851f5d') in 0.029048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Materials/ADG_Textures/ground_vol1/ground1/ground1_Diffuse.tga
+  artifactKey: Guid(eacec9cd0f31ea04b82121877a6cccaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/ADG_Textures/ground_vol1/ground1/ground1_Diffuse.tga using Guid(eacec9cd0f31ea04b82121877a6cccaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ce326a75d6e3c274afde444ee1b797a5') in 0.038269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Materials/GasStation/Assets/Construction/Materials/Floor_2.mat
+  artifactKey: Guid(99baaa0757858c447b8524029f7d8ea5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Construction/Materials/Floor_2.mat using Guid(99baaa0757858c447b8524029f7d8ea5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '050ebd899d397fa4ce4be08d39f92daa') in 0.024541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Materials/ADG_Textures/ground_vol1/ground6/ground6.mat
+  artifactKey: Guid(ae29ac02d08992344b9095971167e1c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/ADG_Textures/ground_vol1/ground6/ground6.mat using Guid(ae29ac02d08992344b9095971167e1c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e0cf3dd9ebd0e7d0f78801c42fd41222') in 0.068940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Materials/GasStation/Assets/Construction/Prefabs/Wall_1_1_Cornor_2.prefab
+  artifactKey: Guid(7bb693f17ec59a14da9bbaa642e0bf36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Construction/Prefabs/Wall_1_1_Cornor_2.prefab using Guid(7bb693f17ec59a14da9bbaa642e0bf36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '91ac19af060cd80ed178fe5241eea330') in 0.035281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Materials/ADG_Textures/ground_vol1/ground6/ground6_Normal.tga
+  artifactKey: Guid(7fa0035d52e52164dbe94df41517b0b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/ADG_Textures/ground_vol1/ground6/ground6_Normal.tga using Guid(7fa0035d52e52164dbe94df41517b0b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2f5c7bec5919966f1cd7d8f44a56020f') in 0.030567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Materials/GasStation/Scene/GasStation.unity
+  artifactKey: Guid(a800300cdc4635e48ba1024f526f46d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Scene/GasStation.unity using Guid(a800300cdc4635e48ba1024f526f46d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0438ddd9acaa96a6c5f343fa1d6861c5') in 0.015723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Materials/GasStation/Assets/Nature/Textures/Skybox.hdr
+  artifactKey: Guid(561e669c5c14c7046b77878bad650cb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Nature/Textures/Skybox.hdr using Guid(561e669c5c14c7046b77878bad650cb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '72eba0db3a15383f67c1dcf02a50e0b2') in 0.040449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Materials/GasStation/Assets/Nature/Textures/Mountain_1_Normal.tga
+  artifactKey: Guid(93d863d76f8cf1b4b8a1e72d183afb89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Nature/Textures/Mountain_1_Normal.tga using Guid(93d863d76f8cf1b4b8a1e72d183afb89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '634a2c8cba6aa7151eebaba7e1d6f0a6') in 0.034793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Materials/GasStation/Assets/Nature/Textures/Soil_1_Albedo.tga
+  artifactKey: Guid(7237bcb7835e98c438b1179067bfc66e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Nature/Textures/Soil_1_Albedo.tga using Guid(7237bcb7835e98c438b1179067bfc66e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '82b9fdcf4efbc2d93614ef05729aa2cb') in 0.040343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Materials/ADG_Textures/ground_vol1/ground14/ground14_Normal.tga
+  artifactKey: Guid(bb9441ad1e914614c84125c92ac95253) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/ADG_Textures/ground_vol1/ground14/ground14_Normal.tga using Guid(bb9441ad1e914614c84125c92ac95253) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '90d86f82bbfed544378fc4ff22ac35ac') in 0.036866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Materials/GasStation/Scene/GasStationSettings.lighting
+  artifactKey: Guid(4439e8556691904408be129658802d80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Scene/GasStationSettings.lighting using Guid(4439e8556691904408be129658802d80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3a0d164629deef31967a4e8286af33de') in 0.047141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Materials/ADG_Textures/ground_vol1/ground8/ground8_Height.tga
+  artifactKey: Guid(197149ea2860411408a82a7da3570ccc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/ADG_Textures/ground_vol1/ground8/ground8_Height.tga using Guid(197149ea2860411408a82a7da3570ccc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a77f7364fd222017a9ecf8d51725eb22') in 0.039769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Materials/ADG_Textures/ground_vol1/ground7/ground7_Height.tga
+  artifactKey: Guid(7675b323e40eb7d448be59ef94396cca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/ADG_Textures/ground_vol1/ground7/ground7_Height.tga using Guid(7675b323e40eb7d448be59ef94396cca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a5d0b2fd0a9919d5fd036250d952776a') in 0.026979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Materials/GasStation/Scene/GasStation/Lightmap-1_comp_dir.png
+  artifactKey: Guid(6f632d9c82867c9448e266c43795ebec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Scene/GasStation/Lightmap-1_comp_dir.png using Guid(6f632d9c82867c9448e266c43795ebec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7ee5ee7937b260ecb27c5e854898c7ca') in 0.049896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Materials/GasStation/Assets/Construction/Models/Pole_1.fbx
+  artifactKey: Guid(e5ba931f799e2ad49895beb9dd18597d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Construction/Models/Pole_1.fbx using Guid(e5ba931f799e2ad49895beb9dd18597d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '14bf37e18a487103668e377f0dfee56b') in 0.054515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Materials/ADG_Textures/ground_vol1/ground5/ground5.mat
+  artifactKey: Guid(255436391f9524147a37a599920b6a29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/ADG_Textures/ground_vol1/ground5/ground5.mat using Guid(255436391f9524147a37a599920b6a29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ec3d17551035650ddb0652bf56330127') in 0.054064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Materials/GasStation/Assets/Nature/Materials/Skybox.mat
+  artifactKey: Guid(61adb137db838154699bb967bbe03611) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Nature/Materials/Skybox.mat using Guid(61adb137db838154699bb967bbe03611) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8b4d56b0474c50b93c220bf3329f0830') in 0.042348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Materials/GasStation/Assets/Nature/TerrainLayers/SoilWater.terrainlayer
+  artifactKey: Guid(563cc1f68a904134c85fa52f405016fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Nature/TerrainLayers/SoilWater.terrainlayer using Guid(563cc1f68a904134c85fa52f405016fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '87cd525b0e08a70917f0211909669ad4') in 0.061333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Materials/MarketProps_1.mat
+  artifactKey: Guid(e2bbe7a8e7506e84898a49e74cb32500) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Materials/MarketProps_1.mat using Guid(e2bbe7a8e7506e84898a49e74cb32500) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1502937bf05c91ee92a397c382bdc1f9') in 0.034189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Models/ComputerSetup_1.fbx
+  artifactKey: Guid(c0e63736af2b80a47b544784ff6e8561) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Models/ComputerSetup_1.fbx using Guid(c0e63736af2b80a47b544784ff6e8561) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8e42b5d0cf6b1804195fbf73127379ec') in 0.030705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Models/Products_1.fbx
+  artifactKey: Guid(4c50e0de5011367478b9eb09839330b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Models/Products_1.fbx using Guid(4c50e0de5011367478b9eb09839330b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c2204b5c5201da1d7e6c9a6cd99d0781') in 0.044007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Materials/Road_1.mat
+  artifactKey: Guid(ac57b344395de8d46891e052422ed855) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Materials/Road_1.mat using Guid(ac57b344395de8d46891e052422ed855) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ca013824c1ca686bd32e5659f9a48853') in 0.090634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Materials/GasPump_1_Glass.mat
+  artifactKey: Guid(34ddc9e0bfc98fd4e8c338979697cda4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Materials/GasPump_1_Glass.mat using Guid(34ddc9e0bfc98fd4e8c338979697cda4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f8b3e5a7efe49bd71370c60276b2f883') in 0.030780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Models/OutDetail_1.fbx
+  artifactKey: Guid(7f9b1491831d1aa4ab108944c339cffb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Models/OutDetail_1.fbx using Guid(7f9b1491831d1aa4ab108944c339cffb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '437dff743aff213f6131ee50ecfd792c') in 0.042693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Materials/MarketFurniture_1.mat
+  artifactKey: Guid(0e07ed472dbc965438184c7af93083f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Materials/MarketFurniture_1.mat using Guid(0e07ed472dbc965438184c7af93083f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b5b1e8312daf0bf448c850e0c280726f') in 0.029170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Materials/MarketProps_2_Glass.mat
+  artifactKey: Guid(684641806dd2c7e49a667d96dd39865d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Materials/MarketProps_2_Glass.mat using Guid(684641806dd2c7e49a667d96dd39865d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '937867902bc55d1939722b657facd594') in 0.029896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Materials/SmallGarbage_1.mat
+  artifactKey: Guid(c470ef35fb2f8f24d9611cc30990aa1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Materials/SmallGarbage_1.mat using Guid(c470ef35fb2f8f24d9611cc30990aa1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e993f57aca4af27d99ffbc6de5f2cca2') in 0.025840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Models/Garbage_1.fbx
+  artifactKey: Guid(c550b594e64cddd478ad041c784ef408) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Models/Garbage_1.fbx using Guid(c550b594e64cddd478ad041c784ef408) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1f1f6547739ade9c694aa08a1f14bd89') in 0.035080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Materials/GasStation/Assets/Construction/Prefabs/Pole_1.prefab
+  artifactKey: Guid(f67ba6d86ca3bee42912e8572aaa10ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Construction/Prefabs/Pole_1.prefab using Guid(f67ba6d86ca3bee42912e8572aaa10ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'da8617b62095fd1b0cc4d414d589a455') in 0.032420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Materials/GasStation/Scene/GasStation/Lightmap-0_comp_light.exr
+  artifactKey: Guid(4b105fb9cd67a6f40b4b3d82dd7205d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Scene/GasStation/Lightmap-0_comp_light.exr using Guid(4b105fb9cd67a6f40b4b3d82dd7205d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f531655c5ad50fe98079cd62c93bf13e') in 0.046346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Textures/MarkeProps_1_AO.tga
+  artifactKey: Guid(9bfdcb800a48ebf40a75a6f8281496d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Textures/MarkeProps_1_AO.tga using Guid(9bfdcb800a48ebf40a75a6f8281496d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fe100235e2cb5b1a07d5dcd7f4b4e8bd') in 0.030563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Textures/Floor_1_Specular.tga
+  artifactKey: Guid(68c08b0c2e12d804d984285f32b26e46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Textures/Floor_1_Specular.tga using Guid(68c08b0c2e12d804d984285f32b26e46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8235c37b0e5513e8d3bf86e37b3f909e') in 0.024909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Textures/GasCeiling_1_Emission.tga
+  artifactKey: Guid(c73e446771a99b24f842859d7e67dde8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Textures/GasCeiling_1_Emission.tga using Guid(c73e446771a99b24f842859d7e67dde8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0b4e5f649100a39bae887255a7878b34') in 0.024045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Textures/Computer_Albedo.tga
+  artifactKey: Guid(9b1beacb0cddf5843a69b15ad1c08a19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Textures/Computer_Albedo.tga using Guid(9b1beacb0cddf5843a69b15ad1c08a19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '248f3f6f6b3e0006affc9aca83b8cf63') in 0.025987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Textures/Garbage_1_Albedo.tga
+  artifactKey: Guid(7520bd879406b6547b727861a1c41737) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Textures/Garbage_1_Albedo.tga using Guid(7520bd879406b6547b727861a1c41737) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'af8ebfcc9c07c4455ef3c26119008c05') in 0.028188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Textures/MarkeProps_1_Albedo.tga
+  artifactKey: Guid(e0c6a4f9c2cc5cc43af6325418660854) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Textures/MarkeProps_1_Albedo.tga using Guid(e0c6a4f9c2cc5cc43af6325418660854) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5149c26a17ebaa9e5f27b33f35fbf86f') in 0.029552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Textures/Floor_2_AO.tga
+  artifactKey: Guid(b08b172cb6ea5684586dc6146f390270) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Textures/Floor_2_AO.tga using Guid(b08b172cb6ea5684586dc6146f390270) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1f61c08f6ae5d62a1b3de1375b8ec390') in 0.029518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Textures/GasCeiling_1_Albedo.tga
+  artifactKey: Guid(0ce5142d77867cc4b9ce4ee49dc6b9fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Textures/GasCeiling_1_Albedo.tga using Guid(0ce5142d77867cc4b9ce4ee49dc6b9fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fd1536471e4622464f09a777b8c3fab9') in 0.032434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Materials/ADG_Textures/ground_vol1/ground4/ground4_Normal.tga
+  artifactKey: Guid(6711a6f408dca5b41b938ec249d8d444) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/ADG_Textures/ground_vol1/ground4/ground4_Normal.tga using Guid(6711a6f408dca5b41b938ec249d8d444) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5ed77ba9b391e865a1876c3d09ad7646') in 0.032303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Materials/GasStation/Assets/Nature/Textures/Gravel_1_Albedo.tga
+  artifactKey: Guid(9782223997b2c184ea4b4e85d5ef682e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Nature/Textures/Gravel_1_Albedo.tga using Guid(9782223997b2c184ea4b4e85d5ef682e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '832fe57a3ad8c821f06df1c4429136c8') in 0.035425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Materials/ADG_Textures/ground_vol1/ground14/ground14_Height.tga
+  artifactKey: Guid(019c9c14a59c63f40aa359f74a836a1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/ADG_Textures/ground_vol1/ground14/ground14_Height.tga using Guid(019c9c14a59c63f40aa359f74a836a1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7e2d666e1c6e6ea0644f548d760d74e8') in 0.037242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Materials/GasStation/Assets/Nature/Textures/Soil_1_Mask.tga
+  artifactKey: Guid(13928d7615284a54b8b56ecfce57cb0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Nature/Textures/Soil_1_Mask.tga using Guid(13928d7615284a54b8b56ecfce57cb0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4c1e95a58b0e8ce5d8998cdb51f7b887') in 0.037343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Materials/ADG_Textures/ground_vol1/ground9/ground9_Height.tga
+  artifactKey: Guid(e9a070d57a52c914893b85e9501c4344) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/ADG_Textures/ground_vol1/ground9/ground9_Height.tga using Guid(e9a070d57a52c914893b85e9501c4344) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7f69fa73dd728d8225d9b4b3bc0830d8') in 0.041695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Textures/Floor_1_AO.tga
+  artifactKey: Guid(f389cdda937f4174a96654d3f135bb89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Textures/Floor_1_AO.tga using Guid(f389cdda937f4174a96654d3f135bb89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f2dfcb8a71ddd50534af6225856a7acb') in 0.026655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Materials/GasStation/Assets/Nature/Textures/Gravel_1_Mask.tga
+  artifactKey: Guid(97f544d47ff730d488cef903be56508a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Nature/Textures/Gravel_1_Mask.tga using Guid(97f544d47ff730d488cef903be56508a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4fb8a632863de0459045463324bfa430') in 0.043052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Materials/GasStation/Assets/Nature/Materials/Grass_1.mat
+  artifactKey: Guid(c164899136ecf104b9493f0988f30c2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Nature/Materials/Grass_1.mat using Guid(c164899136ecf104b9493f0988f30c2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '76078a72ca62f797a3390e9e7aab357a') in 0.031588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Materials/ADG_Textures/ground_vol1/ground12/ground12_Ambient_Occlusion.tga
+  artifactKey: Guid(486d05903420710488646c5c8e8fd3a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/ADG_Textures/ground_vol1/ground12/ground12_Ambient_Occlusion.tga using Guid(486d05903420710488646c5c8e8fd3a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e3fcdbbd2dd701dd3e432dd0ef74e5a6') in 0.024730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Textures/MarketFurniture_1_Albedo.tga
+  artifactKey: Guid(b95ccfa86852de94abda50623d474339) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Textures/MarketFurniture_1_Albedo.tga using Guid(b95ccfa86852de94abda50623d474339) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '158a7942e0b3f211a568a154f7e82e1f') in 0.027884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Textures/OutDetail_1_Specular.tga
+  artifactKey: Guid(4b5c3a44fc23d724583b7f71645ef954) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Textures/OutDetail_1_Specular.tga using Guid(4b5c3a44fc23d724583b7f71645ef954) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '189d9aafb64dcf98d6e17a639de509f8') in 0.028525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Textures/Pole_1_AO.tga
+  artifactKey: Guid(7dd3ecd9c742478438a3a0ab125daa0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Textures/Pole_1_AO.tga using Guid(7dd3ecd9c742478438a3a0ab125daa0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '69d9280ee82f8786aec0d0726a71618f') in 0.030349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Textures/MarketProps_2_Normal.tga
+  artifactKey: Guid(665a2cc484d885040adf19a484e14a52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Textures/MarketProps_2_Normal.tga using Guid(665a2cc484d885040adf19a484e14a52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ee9450ba6735ac35234c7d7b7ecedee5') in 0.032726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Textures/Pole_1_Specular.tga
+  artifactKey: Guid(8f690ada134d2b24e8d26cdd74c26cb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Textures/Pole_1_Specular.tga using Guid(8f690ada134d2b24e8d26cdd74c26cb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e3eb36ad4d86e6398bc71b7c186c0538') in 0.032743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Textures/Road_1_Specular.tga
+  artifactKey: Guid(825005dd0e5d2ad4eb64c33c4ee14e25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Textures/Road_1_Specular.tga using Guid(825005dd0e5d2ad4eb64c33c4ee14e25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '680577fcaefec566c08454e0ee1a870f') in 0.026200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Textures/Products_1_AO.tga
+  artifactKey: Guid(b86a8925c555a6845937c9dff8784336) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Textures/Products_1_AO.tga using Guid(b86a8925c555a6845937c9dff8784336) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cf94218184d014ef43ee94b1614dac2d') in 0.027763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Textures/Products_1_Specular.tga
+  artifactKey: Guid(980bebfde171071498fa3e2e1c7b3bd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Textures/Products_1_Specular.tga using Guid(980bebfde171071498fa3e2e1c7b3bd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '772cbec12bcca081c2b0bb30925da766') in 0.027502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Textures/MarketProps_2_AO.tga
+  artifactKey: Guid(582651fb8a8a5f74eac85be2ec5dfb2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Textures/MarketProps_2_AO.tga using Guid(582651fb8a8a5f74eac85be2ec5dfb2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1e39bfaa575508f0d8a76f473dafbeff') in 0.031926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Textures/MarketFurniture_1_Specular.tga
+  artifactKey: Guid(0aa175f9ab33e254fa5f94eb12356b7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Textures/MarketFurniture_1_Specular.tga using Guid(0aa175f9ab33e254fa5f94eb12356b7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '03aefade245e03ca7556461aa4f749b2') in 0.031496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Textures/MarketProps_2_Specular.tga
+  artifactKey: Guid(a12c70558b4cbc244a3686023dccd921) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Textures/MarketProps_2_Specular.tga using Guid(a12c70558b4cbc244a3686023dccd921) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '394e9baab985bca2ea644c9529e8d5b8') in 0.032523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Textures/SmallGarbage_1_Albedo.tga
+  artifactKey: Guid(b0f799e7547cc1346b550b57c1e892d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Textures/SmallGarbage_1_Albedo.tga using Guid(b0f799e7547cc1346b550b57c1e892d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '63d6799f4f192e7ff9c0506470642cf0') in 0.030208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Textures/Products_1_Albedo.tga
+  artifactKey: Guid(0f16e12253737cf4f998d2590da5ca61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Textures/Products_1_Albedo.tga using Guid(0f16e12253737cf4f998d2590da5ca61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fc0dd2499deb57da0c42fe32eb1d4197') in 0.029777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Materials/GasStation/Assets/Construction/Prefabs/Ceiling_Cornor.prefab
+  artifactKey: Guid(5c5eab6f673fd4b4788565f55b3dea61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Construction/Prefabs/Ceiling_Cornor.prefab using Guid(5c5eab6f673fd4b4788565f55b3dea61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3e0ee0aa55bb5289485bcc19fde8a01c') in 0.035746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Textures/Road_1_Normal.tga
+  artifactKey: Guid(bedce28997f44364f89240dfd92abf17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Textures/Road_1_Normal.tga using Guid(bedce28997f44364f89240dfd92abf17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8d16908c9c5a29c0f192ba4716310f3b') in 0.029717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Materials/GasStation/Assets/Nature/Textures/Soil_1_Water_Mask.tga
+  artifactKey: Guid(32c75fe28976bf54592a8600fa50d172) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Nature/Textures/Soil_1_Water_Mask.tga using Guid(32c75fe28976bf54592a8600fa50d172) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2e41ce2a1d0a3ec7e4fa921df7cf567a') in 0.027054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Materials/GasStation/Scene/Lighting/GasStationScene/ReflectionProbe-1.exr
+  artifactKey: Guid(e4c3e1d40e1b52543b05a88a0cf58c83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Scene/Lighting/GasStationScene/ReflectionProbe-1.exr using Guid(e4c3e1d40e1b52543b05a88a0cf58c83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e4be76797bb7d679a7d2487cd9bb7be2') in 0.034896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Materials/GasStation/Scene/Lighting/GasStationScene/LightingData.asset
+  artifactKey: Guid(51b022eed2eca4d4f80227502537c828) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Scene/Lighting/GasStationScene/LightingData.asset using Guid(51b022eed2eca4d4f80227502537c828) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'db429b9b58212e08e72bc9fc48f8c49a') in 0.062277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Textures/Wall_1_1_Window1_Normal.tga
+  artifactKey: Guid(eeef3d347ace1dd4fbf4c486227f1290) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Textures/Wall_1_1_Window1_Normal.tga using Guid(eeef3d347ace1dd4fbf4c486227f1290) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1054802c6ef492c6f57c1851717a7814') in 0.029338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Prefabs/Market Props/Banner_1.prefab
+  artifactKey: Guid(db80b2772e90b174db0e33f2e3dbb410) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Prefabs/Market Props/Banner_1.prefab using Guid(db80b2772e90b174db0e33f2e3dbb410) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'db9fbbca81042d278efef80ad67a03aa') in 0.035291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Textures/Wall_1_1_Door_Normal.tga
+  artifactKey: Guid(b41139ee9cb60c04fb833701dae8f5ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Textures/Wall_1_1_Door_Normal.tga using Guid(b41139ee9cb60c04fb833701dae8f5ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c181761a0ead3dd97710f63c9c617046') in 0.031184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Materials/GasStation/Scene/Lighting/GasStationScene/ReflectionProbe-8.exr
+  artifactKey: Guid(4c0a29f5a0f032641bfd4d760da66995) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Scene/Lighting/GasStationScene/ReflectionProbe-8.exr using Guid(4c0a29f5a0f032641bfd4d760da66995) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a75579ffd081264e82567d1778cf9607') in 0.037332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Materials/GasStation/Scene/Lighting/GasStationScene/ReflectionProbe-2.exr
+  artifactKey: Guid(f45fc97d6e255ad49b1418e15bc12b55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Scene/Lighting/GasStationScene/ReflectionProbe-2.exr using Guid(f45fc97d6e255ad49b1418e15bc12b55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e8b79cf3832a7271176cf35a2187b09f') in 0.031154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Prefabs/Market Props/Chair_2.prefab
+  artifactKey: Guid(b0a79973ee70ba94f8a769bc40322a9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Prefabs/Market Props/Chair_2.prefab using Guid(b0a79973ee70ba94f8a769bc40322a9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bcb0d6a8dae570f1cb03bfe2ab4d3ae9') in 0.035359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Prefabs/Market Props/Computer_1.prefab
+  artifactKey: Guid(d6dd4949168f2aa46ba1ddfea9787f73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Prefabs/Market Props/Computer_1.prefab using Guid(d6dd4949168f2aa46ba1ddfea9787f73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '936eb80438d82ee95e9e0a71f622b321') in 0.033052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Textures/Wall_1_1_Window2_AO.tga
+  artifactKey: Guid(ecff4f91ee49cd14a80a6e51cbc9e3a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Textures/Wall_1_1_Window2_AO.tga using Guid(ecff4f91ee49cd14a80a6e51cbc9e3a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e965d3e5e8ba28e0dad6adfd4bd51afd') in 0.023518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Materials/GasStation/Scene/Lighting/GasStationScene/ReflectionProbe-4.exr
+  artifactKey: Guid(1016722f2bdf3444e9a5b3470eb7d969) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Scene/Lighting/GasStationScene/ReflectionProbe-4.exr using Guid(1016722f2bdf3444e9a5b3470eb7d969) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'da36209c82fa20302c880a4c8dde079f') in 0.034075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Materials/GasStation/Scene/Lighting/GasStationScene/ReflectionProbe-0.exr
+  artifactKey: Guid(24dad2b80318055479dc74a7b06e8ce7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Scene/Lighting/GasStationScene/ReflectionProbe-0.exr using Guid(24dad2b80318055479dc74a7b06e8ce7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f991c68ceb5abefcd4ac16dfb67e919c') in 0.088677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Prefabs/Market Props/Brand_1.prefab
+  artifactKey: Guid(fb60ff520aebfa343b51228bf35cdd77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Prefabs/Market Props/Brand_1.prefab using Guid(fb60ff520aebfa343b51228bf35cdd77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3c8819e278b1f6666551c882860b4f7e') in 0.050773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Prefabs/Out Props/GarbageContainter_2.prefab
+  artifactKey: Guid(acf999feef21bb74bb66851cb9821c26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Prefabs/Out Props/GarbageContainter_2.prefab using Guid(acf999feef21bb74bb66851cb9821c26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '72c29b23b62eba5f1d1b7af2d0db1603') in 0.044900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Prefabs/Market Props/Flyer_3.prefab
+  artifactKey: Guid(abc05084080cfa347af7f115883b263e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Prefabs/Market Props/Flyer_3.prefab using Guid(abc05084080cfa347af7f115883b263e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '801192006f6871e09a4948500916ab23') in 0.035404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Prefabs/Market Props/WaterDispenser_1.prefab
+  artifactKey: Guid(bf23cf675c2aa14468ceefbbe41adb04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Prefabs/Market Props/WaterDispenser_1.prefab using Guid(bf23cf675c2aa14468ceefbbe41adb04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '33f808f2b22e3f7c64be55d4696f4295') in 0.041760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Prefabs/Products/Bottle_4.prefab
+  artifactKey: Guid(cc044417bf5506e46a2c0dd6d30c9f92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Prefabs/Products/Bottle_4.prefab using Guid(cc044417bf5506e46a2c0dd6d30c9f92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cfd1bbfe6d037fc1e8cfaf5ffc0a9ed8') in 0.019768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Prefabs/Out Props/Cardbox_1.prefab
+  artifactKey: Guid(f9634684feb7ee34f924db4bbf446d9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Prefabs/Out Props/Cardbox_1.prefab using Guid(f9634684feb7ee34f924db4bbf446d9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fc350eef8919e1c267251664384857c7') in 0.034105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Prefabs/Products/Package_3.prefab
+  artifactKey: Guid(5d5dca485511e824a9dd2e1b2b41083a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Prefabs/Products/Package_3.prefab using Guid(5d5dca485511e824a9dd2e1b2b41083a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1cbad3d3f1586c2cbbece3352002fe80') in 0.018923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Prefabs/Out Props/Lamp_1.prefab
+  artifactKey: Guid(7a6242cd8009ad848911cb33ee687d9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Prefabs/Out Props/Lamp_1.prefab using Guid(7a6242cd8009ad848911cb33ee687d9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '989c295d03c5c3cc48a6c6ed01a2f57b') in 0.035823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Prefabs/Out Props/GarbageBag_2.prefab
+  artifactKey: Guid(38cce9bdfd31d2244898d39fe31a15a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Prefabs/Out Props/GarbageBag_2.prefab using Guid(38cce9bdfd31d2244898d39fe31a15a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '05bb1419fdd2834533fbcb266e537a5e') in 0.034690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Prefabs/Market Props/Flyer_2.prefab
+  artifactKey: Guid(d14187d8453861946ac8ee834e123309) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Prefabs/Market Props/Flyer_2.prefab using Guid(d14187d8453861946ac8ee834e123309) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e66dd3941f1933e69ad1e34f968f0e6b') in 0.029956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Materials/ADG_Textures/ground_vol1/ground13/ground13_Normal.tga
+  artifactKey: Guid(b2fb145365da39b43bb38b3d3d3db1eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/ADG_Textures/ground_vol1/ground13/ground13_Normal.tga using Guid(b2fb145365da39b43bb38b3d3d3db1eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e7ff9e3223ebdf6c997b31779abc0531') in 0.041128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Materials/ADG_Textures/ground_vol1/ground5/ground5_Metallic.tga
+  artifactKey: Guid(8d63b7caa4e75dd4aa5e84f4b97befa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/ADG_Textures/ground_vol1/ground5/ground5_Metallic.tga using Guid(8d63b7caa4e75dd4aa5e84f4b97befa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '302565009aa0ff257feeb6bcc43fa598') in 0.040229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Materials/GasStation/Assets/Nature/Textures/Grass_1.png
+  artifactKey: Guid(6abe4e1ff06b7554a984a242b7397d83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Nature/Textures/Grass_1.png using Guid(6abe4e1ff06b7554a984a242b7397d83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2c78b0598479e46283129f8931423924') in 0.042490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Textures/Garbage_1_Specular.tga
+  artifactKey: Guid(ef4805dea12b8ae47a1da9b88cfeed4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Textures/Garbage_1_Specular.tga using Guid(ef4805dea12b8ae47a1da9b88cfeed4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd1a46f96d353336e36d2506aa7dea37d') in 0.033514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Materials/ADG_Textures/ground_vol1/ground13/ground13_Metallic.tga
+  artifactKey: Guid(4d2c3481f7fceba4bb8e65a157391583) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/ADG_Textures/ground_vol1/ground13/ground13_Metallic.tga using Guid(4d2c3481f7fceba4bb8e65a157391583) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3d2ddc848196251c0c98d0c98e52795b') in 0.037408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Materials/ADG_Textures/ground_vol1/ground12/ground12_Diffuse.tga
+  artifactKey: Guid(e5bdfc3501c76e542bf68ff5e1c84f67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/ADG_Textures/ground_vol1/ground12/ground12_Diffuse.tga using Guid(e5bdfc3501c76e542bf68ff5e1c84f67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a5c514fe04e22d318a97595482743d2e') in 0.027845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Prefabs/Products/ProductBox_1.prefab
+  artifactKey: Guid(1891ae989e9be094996db811bd6e0d9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Prefabs/Products/ProductBox_1.prefab using Guid(1891ae989e9be094996db811bd6e0d9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '664131d7845b49e260d17aeab88d47eb') in 0.020761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Prefabs/Road/Road_1_2.prefab
+  artifactKey: Guid(ad3dfa27d510a9f4b92f0d7058efbba0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Prefabs/Road/Road_1_2.prefab using Guid(ad3dfa27d510a9f4b92f0d7058efbba0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3f32f256815708a7454eb2eeb09cda0d') in 0.040510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Prefabs/Small Garbage/Pallet_1.prefab
+  artifactKey: Guid(ebba1aadbbb6fe44784d4dae0ebbf914) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Prefabs/Small Garbage/Pallet_1.prefab using Guid(ebba1aadbbb6fe44784d4dae0ebbf914) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '446e5c7f509d8916a01ce0b83ea998f2') in 0.034146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Prefabs/Road/Fence_1_4.prefab
+  artifactKey: Guid(3ad3821184155844cadb6bb58ae0f979) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Prefabs/Road/Fence_1_4.prefab using Guid(3ad3821184155844cadb6bb58ae0f979) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ae5c04a3f94990289a0b6f7863c22593') in 0.053762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Textures/Floor_1_Albedo.tga
+  artifactKey: Guid(5a90c37a16d641942a2da8c37eeb9d4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Textures/Floor_1_Albedo.tga using Guid(5a90c37a16d641942a2da8c37eeb9d4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e520f0a0f43c009a6c55079dddb875d9') in 0.023831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Materials/GasStation/Scene/GasStation/ReflectionProbe-5.exr
+  artifactKey: Guid(9bb3ff1dbb55fd342978f1b4ae80cbe1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Scene/GasStation/ReflectionProbe-5.exr using Guid(9bb3ff1dbb55fd342978f1b4ae80cbe1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '89799f3f765dffa10fc7d1e36d7a2b6a') in 0.036630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Textures/MarkeProps_1_Specular.tga
+  artifactKey: Guid(8764f1e22c46a2b4b9d99ce4d5ca3ff1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Textures/MarkeProps_1_Specular.tga using Guid(8764f1e22c46a2b4b9d99ce4d5ca3ff1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5b94a278dc0440f03a3768680ac5f396') in 0.027545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Textures/Pole_1_Normal.tga
+  artifactKey: Guid(4cbdb9785eb98f5448ded0d0d125b44c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Textures/Pole_1_Normal.tga using Guid(4cbdb9785eb98f5448ded0d0d125b44c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '225a4b7537ca3760bf37c898a8e1d279') in 0.031067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Materials/OutDetail_1.mat
+  artifactKey: Guid(d98772c078882f54eb340746cef95371) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Materials/OutDetail_1.mat using Guid(d98772c078882f54eb340746cef95371) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cbdf86a75d6675e48634c5b42645c900') in 0.029163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Materials/ADG_Textures/ground_vol1/ground6/ground6_Ambient_Occlusion.tga
+  artifactKey: Guid(ebd3d1a8771ae20409976ac604480143) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/ADG_Textures/ground_vol1/ground6/ground6_Ambient_Occlusion.tga using Guid(ebd3d1a8771ae20409976ac604480143) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '60c5b2f9c7bbf2501c2ea7c270f8bdaf') in 0.027775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Materials/ADG_Textures/ground_vol1/ground8/ground8_Metallic.tga
+  artifactKey: Guid(a08e6063e7e3b4a45b860146c8c613dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/ADG_Textures/ground_vol1/ground8/ground8_Metallic.tga using Guid(a08e6063e7e3b4a45b860146c8c613dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c3a915ccc95e47883dcd3fb34d0a4a86') in 0.040915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Materials/GasStation/Assets/Props/Prefabs/Market Props/Maquina_1.prefab
+  artifactKey: Guid(3aa6ae91116507c44873072fc3b643ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/GasStation/Assets/Props/Prefabs/Market Props/Maquina_1.prefab using Guid(3aa6ae91116507c44873072fc3b643ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ba1ca46e69d7fc2e3365cb564e67ee2d') in 0.032477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
