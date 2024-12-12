@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{CFD4A936-4839-90BC-BED5-80A93D293F55}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermotor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CFD4A936-4839-90BC-BED5-80A93D293F55}|Assembly-CSharp.csproj|c:\\users\\armaa\\onedrive\\desktop\\projects\\shady_shell\\shady_shell\\assets\\scripts\\firstpersoncontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFD4A936-4839-90BC-BED5-80A93D293F55}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\firstpersoncontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CFD4A936-4839-90BC-BED5-80A93D293F55}|Assembly-CSharp.csproj|C:\\Users\\armaa\\OneDrive\\Desktop\\Projects\\Shady_Shell\\Shady_Shell\\assets\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CFD4A936-4839-90BC-BED5-80A93D293F55}|Assembly-CSharp.csproj|solutionrelative:assets\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FirstPersonControl.cs",
+              "DocumentMoniker": "C:\\Users\\armaa\\OneDrive\\Desktop\\Projects\\Shady_Shell\\Shady_Shell\\Assets\\Scripts\\FirstPersonControl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FirstPersonControl.cs",
+              "ToolTip": "C:\\Users\\armaa\\OneDrive\\Desktop\\Projects\\Shady_Shell\\Shady_Shell\\Assets\\Scripts\\FirstPersonControl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FirstPersonControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T05:54:43.301Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -35,15 +52,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "playerController.cs",
               "DocumentMoniker": "C:\\Users\\armaa\\OneDrive\\Desktop\\Projects\\Shady_Shell\\Shady_Shell\\Assets\\playerController.cs",
               "RelativeDocumentMoniker": "Assets\\playerController.cs",
               "ToolTip": "C:\\Users\\armaa\\OneDrive\\Desktop\\Projects\\Shady_Shell\\Shady_Shell\\Assets\\playerController.cs",
               "RelativeToolTip": "Assets\\playerController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwAwAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T03:36:31.686Z"
+              "WhenOpened": "2024-12-11T03:36:31.686Z",
+              "EditorCaption": ""
             }
           ]
         }
